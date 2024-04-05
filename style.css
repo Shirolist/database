@@ -1,0 +1,100 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  background-color: #f0c14b;
+  border: none;
+  border-radius: 4px;
+  color: #111;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #111;
+}
+
+.footer {
+    background-color: #020202;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    color:white;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#credits {
+    font-weight: bold;
+}
+
+#poll {
+    margin-top: 20px;
+}
+
+#poll p {
+    margin-bottom: 10px;
+}
+
+#poll input[type="radio"] {
+    margin-right: 5px;
+}
+
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
